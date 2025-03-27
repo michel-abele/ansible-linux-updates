@@ -1,0 +1,12 @@
+---
+# Group variables for all hosts
+
+
+# Ansible settings
+ansible_become: yes
+ansible_ssh_timeout: 30
+ansible_user: ansible_user
+gather_facts: no
+
+# SSH settings
+ssh_keys_base_dir: /opt/semaphore/keys

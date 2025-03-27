@@ -1,0 +1,12 @@
+---
+# This inventory contains all hosts
+
+
+# Inventory
+all:
+  hosts:
+    tpl_alma:
+    tpl_debian:
+    tpl_rhel:
+    tpl_rocky:
+    tpl_ubuntu:

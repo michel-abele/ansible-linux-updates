@@ -1,0 +1,12 @@
+---
+# Host variables for an Ubuntu system (TEMPLATE)
+
+
+# Ansible settings
+ansible_host: 10.10.10.1
+ansible_become_method: sudo
+
+# Host settings
+host_hostname: tpl_ubuntu
+host_os_distribution: Ubuntu
+host_package manager: apt

@@ -1,0 +1,12 @@
+---
+# Host variables for an Debian system (TEMPLATE)
+
+
+# Ansible settings
+ansible_host: 10.10.10.2
+ansible_become_method: su
+
+# Host settings
+host_hostname: tpl_debian
+host_os_distribution: Debian
+host_package manager: apt
