@@ -1,0 +1,11 @@
+---
+# This playbook performs a complete update on the host
+
+
+# Playbook
+- name: System update full
+  hosts: all
+
+  # Settings
+  vars:
+    ansible_ssh_private_key_file: "{{ ssh_keys_base_dir }}/{{ host_hostname }}"

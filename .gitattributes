@@ -19,3 +19,4 @@
 
 # Apply override to all YAML files in the directory
 *.yml linguist-detectable
+*.yml linguist-language=YAML

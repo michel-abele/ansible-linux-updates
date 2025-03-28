@@ -1,0 +1,12 @@
+---
+# Host variables for an AlmaLinux system (TEMPLATE)
+
+
+# Ansible settings
+ansible_host: 10.10.10.5
+ansible_become_method: su
+
+# Host settings
+host_hostname: tpl_alma
+host_os_distribution: Alma
+host_package manager: dnf

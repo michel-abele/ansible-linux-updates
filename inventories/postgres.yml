@@ -1,0 +1,9 @@
+---
+# This inventory contains all PostgreSQL hosts
+
+
+# Inventory
+all:
+  hosts:
+    tpl_debian:
+    tpl_rhel:

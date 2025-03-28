@@ -1,0 +1,12 @@
+---
+# Host variables for an RHEL system (TEMPLATE)
+
+
+# Ansible settings
+ansible_host: 10.10.10.3
+ansible_become_method: su
+
+# Host settings
+host_hostname: tpl_rhel
+host_os_distribution: RHEL
+host_package manager: dnf

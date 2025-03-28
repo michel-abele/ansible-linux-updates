@@ -1,0 +1,6 @@
+---
+# Variables for the system_reboot role
+
+
+# Reboot settings
+reboot_time: "now"

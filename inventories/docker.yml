@@ -1,0 +1,9 @@
+---
+# This inventory contains all Docker hosts
+
+
+# Inventory
+all:
+  hosts:
+    tpl_alma:
+    tpl_ubuntu:

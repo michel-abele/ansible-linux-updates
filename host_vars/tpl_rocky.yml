@@ -1,0 +1,12 @@
+---
+# Host variables for an Rocky Linux system (TEMPLATE)
+
+
+# Ansible settings
+ansible_host: 10.10.10.4
+ansible_become_method: su
+
+# Host settings
+host_hostname: tpl_rocky
+host_os_distribution: Rocky
+host_package manager: dnf
