@@ -17,6 +17,6 @@
 *.gitattributes text
 .gitignore      text
 
-# Apply override to all Ansible files in the directory
+# Apply override to all YAML files in the directory
 *.yml linguist-detectable
-*.yml linguist-language=Ansible
+*.yml linguist-language=YAML
